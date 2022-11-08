@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/QLLX"
+            android:title="Quản lý loại xe"/>
+
+        <item android:id="@+id/QLX"
+            android:title="Quản lý xe"/>
+
+        <item android:id="@+id/QLDH"
+            android:title="Quản lý đơn hàng"/>
+
+        <item android:id="@+id/DatHang"
+            android:title="Đặt hàng"/>
+
+        <item android:id="@+id/LSDH"
+            android:title="Lịch Sử đơn Hàng"/>
+
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/topXe"
+                android:title="Top xe mượn nhiều nhất"/>
+
+            <item android:id="@+id/doanhThu"
+                android:title="Doanh thu"/>
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/QLND"
+                android:title="Quản lý người dùng"/>
+
+            <item android:id="@+id/doiPass"
+                android:title="Đổi mật khẩu"/>
+
+            <item android:id="@+id/dangXuat"
+                android:title="Đăng xuất"/>
+        </menu>
+    </item>
+</menu>
